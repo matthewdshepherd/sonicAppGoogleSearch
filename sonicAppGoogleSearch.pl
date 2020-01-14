@@ -1,5 +1,6 @@
 #!/usr/bin/perl
-use Mojo::DOM;
+use Mojo::UserAgent; #module to GET and handle fetch and HTTP requests and responses
+use Mojo::DOM; #module to manipulate dom
 
 print "Enter what you\'d like to search Google for: "; #Terminal prompt askig for search
 $searchQuery=<STDIN>; #Assiging Terminal respinse to searchQuery
