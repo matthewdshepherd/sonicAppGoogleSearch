@@ -2,7 +2,7 @@
 use Mojo::UserAgent; #module to GET and handle fetch and HTTP requests and responses
 use Mojo::DOM; #module to manipulate dom
 
-print "Enter what you\'d like to search Google for: "; #Terminal prompt askig for search
+print "Enter what you\'d like to search Google for then press enter: "; #Terminal prompt askig for search
 $searchQuery=<STDIN>; #Assiging Terminal respinse to searchQuery
 print "Searching Google for: $searchQuery"; #print on Terminal what the search for google is
 $ua = new Mojo::UserAgent; #create new Mojo UserAgent object assigned to $ua
